@@ -3516,7 +3516,9 @@ from sklearn.datasets import load_sample_images, load_sample_image
 from sklearn.datasets import make_classification
 
 x, y = make_classification(n_samples=1000, n_features=6, n_informative=2, n_clusters_per_class=1, random_state=4)
-df = pd.DataFrame(data = x, columns = ['A', 'B', 'C', 'D', 'E', 'F']).round(2)
+x = pd.DataFrame(data = x, columns = ['A', 'B', 'C', 'D', 'E', 'F']).round(2)
+y = pd.DataFrame(data = y, columns = ['output']).round(2)
+df = pd.concat([x, y], axis = 1)
 df.sample(6)
 
 '''accesing values in a data frame'''
