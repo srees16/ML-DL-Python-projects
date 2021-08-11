@@ -112,6 +112,11 @@ Scaling an ML solution:
     use built in libraries & functions
     decide trade off between accuracy & speed
     building pipelines to stream new input data
+
+create requirements.txt file automatically:
+    open terminal and navigate to root folder of the code
+    run pipreqs ./ (pip install pipreqs)
+
 '''
 import os #dir(os): gives all functions in that library/module as list
 import sys #dir(sys)
