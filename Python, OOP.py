@@ -117,6 +117,8 @@ create requirements.txt file automatically:
     open terminal and navigate to root folder of the code
     run pipreqs ./ (pip install pipreqs)
 
+Path params identify specific resource/resources, query parameters sort/filter those resources
+
 '''
 import os #dir(os): gives all functions in that library/module as list
 import sys #dir(sys)
