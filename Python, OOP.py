@@ -38,14 +38,12 @@ Generators: used for efficient memory management to store elements instead of a 
 
 Iterables are strings, lists, sets, tuples, dicts. Encapsulate string in iter() to replicate behaviour of an iterable
 
-break, continue & pass: can be used in while & for loops:
-    Break statement terminates the current loop and resumes execution at the next statement
-
-    Continue stops/skips current execution, and proceeds with next iteration (returns control to the beginning of loop), rejects all remaining statements in current iteration of loop and the control goes back to the start of the loop
-
+while & for loop keywords: break, continue & pass
+    Break statement terminates the current loop and resumes execution at the next statement or breaks out of current closest enclosing loop
+    Continue stops/skips current execution, and proceeds with next iteration (returns control to the beginning of loop), rejects all remaining statements in current iteration of loop and the control goes back to the start of the loop. goes to the top of the closest enclosing loop
     Pass statement is used when a statement is required syntactically but no command/code needs to execute.
-
     Else statement is executed when the loop has exhausted iterating. can be used with for & while loops. It's executed only when For/While loops are NOT terminated by a break statement.
+
 
 For comparing iterables:
 Pandas Series has ~, isin, union1d, intersection1d, str.startswith(), str.contains(), str.endswith()
