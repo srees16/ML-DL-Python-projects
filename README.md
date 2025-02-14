@@ -1,1 +1,1 @@
-# ML-DL-Python-projects
+# ML-DL-projects
